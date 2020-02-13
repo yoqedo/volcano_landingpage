@@ -1,0 +1,128 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+     <!-- Meta tags -->
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+  <meta name="description" content="">
+  <meta name="keywords" content="">
+  <meta name="author" content="">
+  <title>Volcano</title>
+
+  <!-- Google Font -->
+  <link href="https://fonts.googleapis.com/css?family=Montserrat:200,300,400,700,900&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
+    integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+  
+  
+  <!-- Custom CSS-->
+  <link rel="stylesheet" href="scss/styles.css">
+</head>
+
+<body>
+    <!--Navigation-->
+    <nav>
+        <div class="container-fluid">
+            <div class="logo">Volcano<span>es</span></div>
+            <div class="menu">
+                <ul>
+                    <li>Photos</li>
+                    <li>Volcanoes</li>
+                    <li>Earthquakes</li>
+                    <li>Geology</li>
+                    <li>news</li>
+                </ul>
+            </div>
+            <div class="social">
+                <ion-icon name="logo-facebook"></ion-icon>
+                <ion-icon name="logo-twitter"></ion-icon>
+                <ion-icon name="menu"></ion-icon>
+            </div>
+            
+        </div>
+    </nav>
+  <section>
+      <div class="title">
+        <div class="subtext">
+            <h2>ICELAND</h2>
+            <div class="stroke"></div>
+          </div>
+          <h1 class="Titel">Krafla</h1>
+      </div>
+      <div class="descr">
+          <ul>
+              <li>latitude (DD) <span>14.50</span></li>
+              <li>longitude (DD) <span>90.85</span></li>
+              <li>elevation (DD) <span>90.85</span></li>
+          </ul>
+      </div>
+      <div class="buttons">
+          <div class="button1">
+            <ion-icon name="arrow-back-outline"></ion-icon>
+          </div>
+          <div class="button2">
+            <ion-icon name="arrow-forward-outline"></ion-icon>
+          </div>
+      </div>
+      <div class="bigimage">
+          <h1>01</h1>
+          <div class="box">
+              <h2>Chile</h2>
+              <div class="stroke"></div>
+              <h2 class="subnumber">02</h2>
+          </div>
+      </div>
+      <div class="smallimage"></div>
+  </section>
+
+  <!--Tweenmax-->
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.1.1/gsap.min.js"></script>
+  <!-- Ion Icons CDN-->
+  <script src="https://unpkg.com/ionicons@5.0.0/dist/ionicons.js"></script>
+
+  <script>
+      gsap.from('.bigimage', 2.5, {
+        delay: .2,
+        y: 800,
+        ease: Expo.easeInOut
+      })
+      gsap.from('.subtext', 2.5, {
+        delay: .2,
+        y: 800,
+        ease: Expo.easeInOut
+      })
+      gsap.from('.smallimage', 2.5, {
+        delay: .2,
+        y: 800,
+        ease: Expo.easeInOut
+      })
+      gsap.from('.Titel', 1.9, {
+        opacity:0.0,
+        delay: 1.0,
+        y: 120,
+        ease: Expo.easeInOut
+      })
+      gsap.from('.descr', 1.9, {
+        opacity:0.0,
+        delay: 1.2,
+        y: 120,
+        ease: Expo.easeInOut
+      })
+      gsap.from('.box', 1.9, {
+        opacity:0.0,
+        delay: 1.5,
+        y: 120,
+        ease: Expo.easeInOut
+      })
+      gsap.from('.bigimage h1', 1.9, {
+        opacity:0.0,
+        delay: 1.2,
+        y: 120,
+        ease: Expo.easeInOut
+      })
+
+  </script>
+ 
+
+</body>
+</html>

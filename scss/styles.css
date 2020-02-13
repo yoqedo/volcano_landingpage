@@ -1,0 +1,240 @@
+* {
+  padding: 0;
+  margin: 0;
+}
+
+body {
+  width: 100%;
+  height: 100vh;
+  background-color: whitesmoke;
+  font-family: 'Montserrat', sans-serif;
+}
+
+nav {
+  width: 100%;
+  height: 80px;
+  background-color: whitesmoke;
+}
+
+nav .logo {
+  font-size: 30px;
+  font-weight: bold;
+  position: absolute;
+  left: 50px;
+  line-height: 80px;
+}
+
+nav span {
+  font-weight: lighter;
+}
+
+nav .menu {
+  line-height: 80px;
+  position: absolute;
+  left: 400px;
+  text-transform: uppercase;
+}
+
+nav ul {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+nav li {
+  text-decoration: none;
+  list-style: none;
+  margin-right: 20px;
+  font-weight: bold;
+  font-size: 14;
+}
+
+nav .social {
+  position: absolute;
+  right: 50px;
+  line-height: 80px;
+}
+
+nav ion-icon {
+  font-size: 30px;
+  color: black;
+  margin-left: 10px;
+}
+
+section .title {
+  position: absolute;
+  left: 50px;
+  top: 250px;
+}
+
+section .subtext {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+section .subtext h2 {
+  font-size: 25px;
+  font-weight: bold;
+  margin-right: 10px;
+  margin-left: 10px;
+}
+
+section .subtext .stroke {
+  width: 70px;
+  height: 1.0px;
+  background-color: #EF1A45;
+  margin-bottom: 10px;
+}
+
+section h1 {
+  font-size: 120px;
+  text-transform: uppercase;
+  font-weight: bolder;
+  color: #EF1A45;
+  letter-spacing: 1.2px;
+  margin-top: -20px;
+}
+
+section .descr {
+  position: absolute;
+  left: 50px;
+  top: 600px;
+}
+
+section .descr ul {
+  list-style: none;
+}
+
+section .descr ul li {
+  padding: 10px;
+  text-transform: uppercase;
+}
+
+section .descr ul li span {
+  font-weight: bold;
+}
+
+section .buttons {
+  position: absolute;
+  left: 50px;
+  bottom: 50px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+section .buttons .button1 {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  width: 60px;
+  height: 60px;
+  background-color: #EF1A45;
+  border-radius: 50%;
+  margin-right: 20px;
+}
+
+section .buttons .button1 ion-icon {
+  font-size: 25px;
+  color: white;
+}
+
+section .buttons .button2 {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  width: 60px;
+  height: 60px;
+  background-color: gray;
+  border-radius: 50%;
+}
+
+section .buttons .button2 ion-icon {
+  font-size: 25px;
+  color: white;
+}
+
+section .bigimage {
+  position: absolute;
+  left: 400px;
+  width: 1470px;
+  height: 820px;
+  background-image: url(img/vulkan.jpg);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  z-index: -1;
+}
+
+section .bigimage h1 {
+  font-size: 50px;
+  color: white;
+  position: absolute;
+  bottom: 40px;
+  right: 20px;
+}
+
+section .bigimage .box {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  width: 300px;
+  height: 80px;
+  background-color: #EF1A45;
+  position: absolute;
+  right: 20px;
+  bottom: -40px;
+}
+
+section .bigimage .box .stroke {
+  height: 1px;
+  width: 60px;
+  background-color: rgba(255, 255, 255, 0.3);
+  margin-bottom: 10px;
+}
+
+section .bigimage .box h2 {
+  font-size: 18px;
+  text-transform: uppercase;
+  color: white;
+  font-weight: bold;
+  line-height: 80px;
+  padding: 20px;
+}
+
+section .bigimage .box .subnumber {
+  position: absolute;
+  right: 10px;
+}
+
+section .smallimage {
+  position: absolute;
+  left: 300px;
+  bottom: 100px;
+  width: 200px;
+  height: 200px;
+  background-image: url(img/vulkan.jpg);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+/*# sourceMappingURL=styles.css.map */
